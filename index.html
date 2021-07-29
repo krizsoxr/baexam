@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/toggle-menu.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <title>Binary Anvil Exam | Christian Terania</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header-main">
+            <div class="site-header-main-content">
+                <div class="site-header-logo">
+                    <a href="#" title="Home"><img alt="logo" src="./images/logo.png"></a>
+                </div>
+                <div class="site-header-right">
+                    <div class="top-links">
+                        <ul class="links">
+                            <li class="link"><a href="#" title="Subscribe to Newsletter"><span>Subscribe to Newsletter</span></a></li>
+                            <img alt="user-icon" src="./images/user-icon.png">
+                            <li class="link"><a href="#" title="Sign in/Register"><span>Sign in/Register</span></a></li>
+                            <img alt="cart-icon" class="cart" src="./images/cart-icon.png">
+                            <li class="link"><a href="#" title="View Shopping Cart"><span>Cart:</span><strong>$130.00</strong></a></li>
+                        </ul>
+                    </div>
+                    <div class="site-search">
+                        <form class="form" action="#">
+                            <div class="control">
+                                <input class="search input-text" type="text" title="Search our site..." placeholder="Search our site...">
+                            </div>
+                            <div class="action">
+                                <button class="action-search" type="submit" title="Search">
+                                    <img alt="search-icon" src="./images/search-icon.png">
+                                </button>
+                            </div>
+                        </form>
+                        <div class="contact-link">
+                            <span>Can't find an item?</span>
+                            <div class="link">
+                                <a href="#contact" title="Contact Us"><span>Contact Us</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="site-navigation">
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a onclick="myFunction()" class="nav-menu-link" title="Shop Now">
+                        Shop
+                        <span class="nav-menu-icon">
+                            <img src="./images/caret-icon.png">
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link" title="About Us">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#" class="nav-menu-link" title="Connect with Us">
+                        Connect with Us
+                    </a>
+                </li>
+            </ul>
+            <div class="dropdown-container">
+                <div id="drop-down">
+                    <div class="category-list">
+                        <div class="category-item">
+                            <h2 class="category-title">Category 1</h2>
+                            <ul class="category-links">
+                                <li><a href="#" title="Link 1">Link 1</a></li>
+                                <li><a href="#" title="Link 2">Link 2</a></li>
+                                <li><a href="#" title="Link 3">Link 3</a></li>
+                                <li><a href="#" title="Link 4">Link 4</a></li>
+                                <li><a href="#" title="Link 5">Link 5</a></li>
+                                <li><a href="#" title="Link 6">Link 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="category-item">
+                            <h2 class="category-title">Category 2</h2>
+                            <ul class="category-links">
+                                <li><a href="#" title="Link 1">Link 1</a></li>
+                                <li><a href="#" title="Link 2">Link 2</a></li>
+                                <li><a href="#" title="Link 3">Link 3</a></li>
+                                <li><a href="#" title="Link 4">Link 4</a></li>
+                                <li><a href="#" title="Link 5">Link 5</a></li>
+                                <li><a href="#" title="Link 6">Link 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="category-item">
+                            <h2 class="category-title">Category 3</h2>
+                            <ul class="category-links">
+                                <li><a href="#" title="Link 1">Link 1</a></li>
+                                <li><a href="#" title="Link 2">Link 2</a></li>
+                                <li><a href="#" title="Link 3">Link 3</a></li>
+                                <li><a href="#" title="Link 4">Link 4</a></li>
+                                <li><a href="#" title="Link 5">Link 5</a></li>
+                                <li><a href="#" title="Link 6">Link 6</a></li>
+                            </ul>
+                        </div>
+                        <div class="category-item">
+                            <h2 class="category-title">Category 4</h2>
+                            <ul class="category-links">
+                                <li><a href="#" title="Link 1">Link 1</a></li>
+                                <li><a href="#" title="Link 2">Link 2</a></li>
+                                <li><a href="#" title="Link 3">Link 3</a></li>
+                                <li><a href="#" title="Link 4">Link 4</a></li>
+                                <li><a href="#" title="Link 5">Link 5</a></li>
+                                <li><a href="#" title="Link 6">Link 6</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="banner-slider">
+            <div class="slider-wrapper">
+                <div class="slide-item">
+                    <img alt="Homepage Banner" src="./images/banner.png">
+                </div>
+                <div class="swiper-pagination">
+                    <a href="#" title="slider-01" class="swiper-bullet"></a>
+                    <a href="#" title="slider-02" class="swiper-bullet"></a>
+                    <a href="#" title="slider-03" class="swiper-bullet"></a>
+                    <a href="#" title="slider-04" class="swiper-bullet"></a>
+                    <a href="#" title="slider-05" class="swiper-bullet"></a>
+                </div>
+            </div>
+        </div>
+        <div class="image-grid grid-01">
+            <div class="item">
+                <img alt="img-01" src="./images/grid-img-01.png">
+            </div>
+            <div class="item">
+                <img alt="img-02" src="./images/grid-img-02.png">
+            </div>
+        </div>
+        <div class="image-grid grid-02">
+            <div class="item">
+                <img alt="img-03" src="./images/grid-img-03.png">
+                <div class="bg-overlay">&nbsp;</div>
+                <div class="text-btn-overlay">
+                    <h2>Our Services</h2>
+                    <a href="#" title="Shop Now"><span>Shop Now</span></a>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="img-04" src="./images/grid-img-04.png">
+                <div class="bg-overlay">&nbsp;</div>
+                <div class="text-btn-overlay">
+                    <h2>Our Services</h2>
+                    <a href="#" title="Our Shirts"><span>Our Shirts</span></a>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="img-05" src="./images/grid-img-05.png">
+                <div class="bg-overlay">&nbsp;</div>
+                <div class="text-btn-overlay">
+                    <h2>Our Services</h2>
+                    <a href="#" title="Our Gears"><span>Our Gears</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="icon-img-left">
+                <img alt="quote" src="./images/quote-icon.png">
+            </div>
+            <div class="text-content-right">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="newsletter-container">
+            <div class="newsletter">
+                <div class="text">
+                    <h2>Sign Up for special deals, Offers & News</h2>
+                </div>
+                <div class="form-container">
+                    <form class="form" action="#">
+                        <div class="control">
+                            <input class="subscribe input-text" type="text" title="Enter email address..." placeholder="Enter email address...">
+                        </div>
+                        <div class="action">
+                            <button class="action-submit" type="submit" title="Sign Up">
+                                <span>Sign Up</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="site-footer">
+        <div class="site-footer-blocks">
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">Shop by</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#" title="Link 1">Link 1</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 2">Link 2</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 3">Link 3</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 4">Link 4</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 5">Link 5</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">Resources</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#" title="Link 1">Link 1</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 2">Link 2</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 3">Link 3</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 4">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">Support</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#" title="Link 1">Link 1</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 2">Link 2</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 3">Link 3</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 4">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">About</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#" title="Link 1">Link 1</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 2">Link 2</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 3">Link 3</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Link 4">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">Sales & Shipping</h2>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="tel:(123) 456-7890">(123) 456-7890</a></li>
+                    <li class="footer-menu-item"><a href="#" title="Contact Us">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="site-footer-block-item">
+                <h2 class="site-footer-block-title">Stay Connected</h2>
+                <ul class="social-icons">
+                    <li class="item"><a href="#" title="Follow Us on Facebook"><img alt="facebook" src="./images/fb-icon.png"></a></li>
+                    <li class="item"><a href="#" title="Follow Us on Instagram"><img alt="instagram" src="./images/ig-icon.png"></a></li>
+                    <li class="item"><a href="#" title="Follow Us on Twitter"><img alt="twitter" src="./images/twitter-icon.png"></a></li>
+                    <li class="item"><a href="#" title="Follow Us on Google Plus"><img alt="google-plus" src="./images/gplus-icon.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2018</p>
+        </div>
+    </div>
+</body>
+</html>
